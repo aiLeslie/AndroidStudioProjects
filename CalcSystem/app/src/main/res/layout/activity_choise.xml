@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6e60ed"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:text="calc system"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00a1ff"
+        android:text="standard calc" />
+
+    <Button
+        android:id="@+id/NumberSystemTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00a1ff"
+        android:text="Number System Transition" />
+
+
+
+</LinearLayout>

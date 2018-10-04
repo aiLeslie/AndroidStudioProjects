@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ButtonDemo.iml" filepath="$PROJECT_DIR$/ButtonDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawbutton/drawbutton.iml" filepath="$PROJECT_DIR$/drawbutton/drawbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showpercentview/showpercentview.iml" filepath="$PROJECT_DIR$/showpercentview/showpercentview.iml" />
+    </modules>
+  </component>
+</project>

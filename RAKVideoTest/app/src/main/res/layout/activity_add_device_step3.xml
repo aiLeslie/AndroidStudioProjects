@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.jean.component.MainMenuButton
+            android:padding="15dp"
+            android:id="@+id/add_device_step3_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/add_title_height"
+        android:text="@string/add_device_step3_text"
+        android:textColor="@color/add3_text"/>
+
+    <com.example.jean.component.ProcessingView
+        android:id="@+id/add_device_step3_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+				android:oneshot="false">
+	<item android:drawable="@drawable/config_device_0" android:duration="330" />
+	<item android:drawable="@drawable/config_device_1" android:duration="330" />
+	<item android:drawable="@drawable/config_device" android:duration="330" />
+</animation-list>

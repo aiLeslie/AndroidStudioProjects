@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/device_list_admin1"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/device_list_admin_title"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:paddingLeft="10dp"
+	    android:paddingTop="15dp"
+	    android:paddingBottom="15dp"
+	    android:textColor="@color/dialog_blue"
+	    />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="@dimen/two_divider_height"
+         android:background="@color/dialog_blue"
+         />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/device_list_admin_list"
+            android:background="@drawable/selector"
+            android:divider="#00000000"
+            >
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

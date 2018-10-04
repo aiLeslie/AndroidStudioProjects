@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/receivePalce"
+        android:onClick="clearMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#bdffba"
+        android:gravity="center"
+        android:text="接收区"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/receivePalce"
+        android:background="#b8c5ff">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/buttonBrake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:text="#" />
+
+    <!--<Button-->
+
+        <!--android:id="@+id/buttonGo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/buttonBack"-->
+        <!--android:layout_alignLeft="@id/buttonBack"-->
+        <!--android:text="前进" />-->
+
+    <Button
+
+        android:id="@+id/buttonLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonBrake"
+        android:layout_toLeftOf="@id/buttonBrake"
+        android:text="Left" />
+
+    <Button
+
+        android:id="@+id/buttonRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonBrake"
+        android:layout_toRightOf="@id/buttonBrake"
+        android:text="Right" />
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#868686"
+            android:id="@+id/p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="P"
+            android:gravity="left"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textColor="#868686"
+            android:id="@+id/r"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" R"
+            android:gravity="left"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textColor="#868686"
+            android:id="@+id/n"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="N "
+            android:gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textColor="#868686"
+            android:id="@+id/f"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=" 1"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textColor="#868686"
+            android:id="@+id/s"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="2 "
+            android:textSize="30dp" />
+
+        <TextView
+            android:textColor="#868686"
+            android:id="@+id/t"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="3"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout"
+        android:max="10"
+        android:progress="0" />
+
+</RelativeLayout>

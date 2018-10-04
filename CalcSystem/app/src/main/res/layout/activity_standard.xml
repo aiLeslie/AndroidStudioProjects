@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxLines="6"
+        android:textSize="45dp"
+        android:hint="" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="vertical">
+        //第一行
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="C"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonBackspace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="b"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonDivide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="/"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonMultiple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="*"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        //第二行
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-" />
+        </LinearLayout>
+        //第三行
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:text="+" />
+        </LinearLayout>
+
+        //第四行
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="0dp"
+                        android:textSize="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:layout_weight="1"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="0dp"
+                        android:textSize="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonPercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="e"
+                        android:textSize="30dp" />
+
+                    <Button
+                        android:id="@+id/button0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:layout_weight="1"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/buttonPointer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:text="." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonEquals"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:text="=" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

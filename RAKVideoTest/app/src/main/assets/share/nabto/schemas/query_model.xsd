@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Schema for the Nabto query model (i.e., the meta-meta query),
+     sorry for poor readability, but VS insists on removing all whitespace... -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:attribute name="type">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="uint8" />
+        <xs:enumeration value="uint16" />
+        <xs:enumeration value="uint32" />
+        <xs:enumeration value="int8" />
+        <xs:enumeration value="int16" />
+        <xs:enumeration value="int32" />
+        <xs:enumeration value="float" />
+        <xs:enumeration value="double" />
+        <xs:enumeration value="raw" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:attribute name="representation">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+	<xs:enumeration value="ascii" />
+	<xs:enumeration value="hex" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:element name="parameter">
+    <xs:complexType>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute ref="type" use="required"/>
+      <xs:attribute name="default" type="xs:string"/>
+      <xs:attribute ref="representation"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="parameters">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:group ref="params"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:group name="param">
+    <xs:choice>
+      <xs:element ref="parameter" minOccurs="0"/>
+      <xs:element ref="list" minOccurs="0"/>
+    </xs:choice>
+  </xs:group>
+
+  <xs:group name="params">
+    <xs:sequence>
+      <xs:group ref="param" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:element name="unabto_queries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="query" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="request" minOccurs="1" maxOccurs="1">
+		<xs:complexType>
+		  <xs:group ref="params"/>
+		</xs:complexType>
+	      </xs:element>
+              <xs:element name="response" minOccurs="1" maxOccurs="1">
+		<xs:complexType>
+		  <xs:group ref="params"/>
+		  <xs:attribute name="format" type="xs:string" />
+		</xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+            <xs:attribute name="description" type="xs:string"/>
+            <xs:attribute name="id" type="xs:integer" use="required"/>
+            <xs:attribute name="template" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

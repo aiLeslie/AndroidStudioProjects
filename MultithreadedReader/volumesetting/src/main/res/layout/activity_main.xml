@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffb473"
+        android:gravity="center"
+        android:text="设置手机铃声模式"
+        android:textColor="#586fff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textViewCurrentMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="现在手机铃声模式"
+        android:textColor="#ff585e"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/buttonNormalMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正常模式"
+            android:textColor="#c363ff"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/buttonSilentMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="静音模式"
+            android:textColor="#c363ff"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/buttonVibrateMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="震动模式"
+            android:textColor="#c363ff"
+            android:textSize="30dp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7bc1ff"
+        android:gravity="center"
+        android:text="设置手机媒体音量"
+        android:textColor="#586fff"
+        android:textSize="30dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonReduceMusicVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="reduce music volume(减少媒体音量)" />
+
+        <Button
+            android:id="@+id/buttonIncreaseMusicVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="increase music volume(增加媒体音量)" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7bc1ff"
+        android:gravity="center"
+        android:text="设置手机闹钟音量"
+        android:textColor="#586fff"
+        android:textSize="30dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonReduceAlarmVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="reduce music volume(减少闹钟音量)" />
+
+        <Button
+            android:id="@+id/buttonIncreaseAlarmVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="increase music volume(增加闹钟音量)" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7bc1ff"
+        android:gravity="center"
+        android:text="设置手机通知音量"
+        android:textColor="#586fff"
+        android:textSize="30dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonReduceInfoVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="reduce info volume(减少通知音量)" />
+
+        <Button
+            android:id="@+id/buttonIncreaseInfoVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="increase info volume(增加通知音量)" />
+    </LinearLayout>
+
+
+</LinearLayout>

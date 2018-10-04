@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MultithreadedReader.iml" filepath="$PROJECT_DIR$/MultithreadedReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameratest/cameratest.iml" filepath="$PROJECT_DIR$/cameratest/cameratest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medeaplayerdemo/medeaplayerdemo.iml" filepath="$PROJECT_DIR$/medeaplayerdemo/medeaplayerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediarecorder/mediarecorder.iml" filepath="$PROJECT_DIR$/mediarecorder/mediarecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileio/mobileio.iml" filepath="$PROJECT_DIR$/mobileio/mobileio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/networkstatus/networkstatus.iml" filepath="$PROJECT_DIR$/networkstatus/networkstatus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoviewtest/videoviewtest.iml" filepath="$PROJECT_DIR$/videoviewtest/videoviewtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volumesetting/volumesetting.iml" filepath="$PROJECT_DIR$/volumesetting/volumesetting.iml" />
+    </modules>
+  </component>
+</project>

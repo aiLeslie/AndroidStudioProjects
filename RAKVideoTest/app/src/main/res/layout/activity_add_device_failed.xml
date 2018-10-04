@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.jean.component.MainMenuButton
+            android:padding="15dp"
+            android:id="@+id/add_device_failed_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/add_device_failed_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_failed"
+            />
+
+        <TextView
+            android:id="@+id/add_device_failed_text"
+            android:layout_below="@id/add_device_failed_img"
+            android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/add_title_height"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/add_device_failed"
+            android:textColor="@color/add3_text"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_device_failed_ap"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/add_device_failed_ap"
+        android:textSize="@dimen/add_title_height"
+        android:textColor="@color/white"
+        android:background="@drawable/add_selector"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/ShowDevice"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="未连接" />
+    <TextView
+        android:layout_below="@id/ShowDevice"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bdffba"
+        android:gravity="center"
+        android:text="接收区"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:background="@drawable/water"
+        android:layout_below="@id/ShowDevice"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#7b8cff"
+            android:textSize="20dp" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:text="后退" />
+
+    <Button
+
+        android:id="@+id/buttonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonBack"
+        android:layout_alignLeft="@id/buttonBack"
+        android:text="前进" />
+
+    <Button
+
+        android:id="@+id/buttonLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonBack"
+        android:layout_toLeftOf="@id/buttonBack"
+        android:text="向左" />
+
+    <Button
+
+        android:id="@+id/buttonRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonBack"
+        android:layout_toRightOf="@id/buttonBack"
+        android:text="向右" />
+</RelativeLayout>

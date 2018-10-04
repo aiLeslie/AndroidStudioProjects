@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/main_help"
+        android:text="@string/main_help"
+        android:textSize="@dimen/text_size_1"
+        android:padding="10dp"
+        android:textColor="@color/grey"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector"/>
+
+    <com.example.jean.component.MainMenuButton
+        android:id="@+id/main_refresh"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/refresh"/>
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_logo"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <GridView
+        android:id="@+id/main_device"
+        android:layout_below="@id/main_help"
+        android:layout_above="@id/main_logo"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="20dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</RelativeLayout>

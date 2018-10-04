@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragment"-->
+        <!--android:name="com.leslie.javabase.interfacetest.fragment.MyFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="7"-->
+        <!--android:gravity="center" />-->
+    <FrameLayout
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7"></FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

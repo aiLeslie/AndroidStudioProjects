@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.jean.component.MainMenuButton
+            android:padding="15dp"
+            android:id="@+id/add_device_remote_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/add_title_height"
+            android:textColor="@color/add_title"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/add_device_remote_title"/>
+        <com.example.jean.component.MainMenuButton
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/add_text_height"
+        android:text="@string/add_device_remote_text"
+        android:textColor="@color/add_text"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/add_note_height"
+        android:text="@string/add_device_remote_note"
+        android:lineSpacingExtra="8dp"
+        android:textColor="@color/add_note"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/add_background"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <EditText
+                android:id="@+id/add_device_remote_id"
+                android:layout_width="fill_parent"
+                android:textSize="@dimen/add_title_height"
+                android:textColor="@color/add_text"
+                android:hint="@string/add_device_remote_id_hint"
+                android:background="@null"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_divider_height"
+            android:background="@color/add_line"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/add_device_remote_name"
+                android:layout_width="fill_parent"
+                android:textSize="@dimen/add_title_height"
+                android:textColor="@color/add_text"
+                android:hint="@string/add_device_remote_name_hint"
+                android:background="@null"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_divider_height"
+            android:background="@color/add_line"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_device_remote"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/add_device_remote"
+        android:textSize="@dimen/add_title_height"
+        android:textColor="@color/white"
+        android:background="@drawable/add_selector"
+        />
+</RelativeLayout>

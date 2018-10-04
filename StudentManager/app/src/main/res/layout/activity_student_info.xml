@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageViewInfo"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:text="你的学号:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/textViewInfoNumber" />
+
+    <TextView
+        android:hint="your number"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/InfoNumber"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:text="你的姓名:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/textViewInfo" />
+
+    <TextView
+        android:hint="your name"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/InfoName"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="请选择你的性别:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/textView2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:text="female"
+            android:id="@+id/female"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/male"
+            android:textSize="30dp"
+            android:text="male"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <!--<TextView-->
+        <!--android:text="你的密码:"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="30dp"-->
+        <!--android:id="@+id/textViewInfoPassword" />-->
+
+    <!--<TextView-->
+        <!--android:hint="your password"-->
+        <!--android:maxLines="1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="30dp"-->
+        <!--android:id="@+id/InfoPassword" />-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<Button-->
+            <!--android:text="rst"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/buttonRst"-->
+            <!--android:layout_weight="1" />-->
+
+        <!--<Button-->
+            <!--android:text="finish"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/buttonFinish"-->
+            <!--android:layout_weight="1" />-->
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.example.wang.routerdemo">
+
+    <application
+        android:name=".AppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HomeActivity" />
+        <!--
+        1.enadled = true|fasle
+        是否可以接收到其他app的广播
+        2.exported = true|false
+        默认值是由receiver中有无intent-filter决定的:如果有默认为true,没有默认为false.
+        3.name
+        广播的子类的类名.
+        4.permission
+        具有相应的权限的广播发送者发送的广播才能被此BroadcaseReceiver所接收.
+        5.process
+        可以指定的自己单独的进程,Android四大组件都可以用次属性指定进程.
+        6.
+        <intent-filter>
+        //这里是接收网络变化的广播
+<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+    </intent-filter>
+    用于指定此广播接收器将接收的广播类型
+        -->
+        <!--
+        <receiver
+            android:name=".MeBroadcastReceiver"
+            >
+            <intent-filter
+                android:priority="20"
+                >
+                <action android:name="android.intent.action.Router" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </receiver>
+        -->
+
+    </application>
+
+</manifest>

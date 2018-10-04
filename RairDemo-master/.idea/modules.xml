@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BluetoothDemo/BluetoothDemo.iml" filepath="$PROJECT_DIR$/BluetoothDemo/BluetoothDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncrptDemo/EncrptDemo.iml" filepath="$PROJECT_DIR$/EncrptDemo/EncrptDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RairDemo-master.iml" filepath="$PROJECT_DIR$/RairDemo-master.iml" />
+    </modules>
+  </component>
+</project>

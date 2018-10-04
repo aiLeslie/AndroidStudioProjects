@@ -1,0 +1,1 @@
+include ':app', ':mobileio', ':networkstatus', ':medeaplayerdemo', ':volumesetting', ':mediarecorder', ':videoviewtest', ':cameratest', ':message', ':message'

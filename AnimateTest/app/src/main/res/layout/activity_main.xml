@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/start_ctrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/java" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="animation"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <!--<Button-->
+        <!--android:id="@+id/buttonClear"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="clear" />-->
+
+
+        <Button
+            android:id="@+id/buttonScale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Scale" />
+
+        <Button
+            android:id="@+id/buttonRotate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Rotate" />
+
+        <Button
+            android:id="@+id/buttonTranslate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Translate"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/buttonAlpha"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Alpha" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startAni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearlayout"
+        android:layout_weight="1"
+        android:text="start" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--pivot属性为 整数 时 中心点移动若干个单位像素--><!--pivot属性为 百分比形式 时 中心点移动总像素的比例-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:fromXScale="1"
+    android:fromYScale="1"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="2"
+    android:toYScale="2">
+
+</scale>

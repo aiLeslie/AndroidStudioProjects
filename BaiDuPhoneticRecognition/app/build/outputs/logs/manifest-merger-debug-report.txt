@@ -1,0 +1,364 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:17:1-31:12
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:1-202:13
+	package
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:2:5-46
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:21:5-23:58
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:6:5-8:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml
+instrumentation
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:10:5-13:67
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:12:9-66
+	android:targetPackage
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:13:9-64
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:11:9-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:19:22-78
+application
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:21:5-201:20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:22:9-45
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:25:9-84
+meta-data#com.baidu.speech.APP_ID
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:42:9-44:41
+	android:value
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:44:14-38
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:43:14-52
+meta-data#com.baidu.speech.API_KEY
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:45:10-47:57
+	android:value
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:47:14-54
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:46:14-53
+meta-data#com.baidu.speech.SECRET_KEY
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:48:10-50:65
+	android:value
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:50:14-62
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:49:14-56
+service#com.baidu.speech.VoiceRecognitionService
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:52:10-54:41
+	android:exported
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:54:14-38
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:53:14-69
+activity#com.baidu.android.voicedemo.activity.ActivityMain
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:56:10-65:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:59:14-50
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:58:14-77
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:60:14-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:57:14-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:61:14-64:30
+action#android.intent.action.MAIN
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:62:18-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:62:26-67
+category#android.intent.category.LAUNCHER
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:63:18-78
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:63:28-75
+activity#com.baidu.android.voicedemo.activity.ActivityOnline
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:66:10-75:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:70:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:69:14-34
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:68:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:67:14-80
+intent-filter#action:name:android.intent.action.MAIN+category:name:com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:71:14-74:30
+category#com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:73:18-105
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:73:28-102
+activity#com.baidu.android.voicedemo.activity.ActivityOffline
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:76:10-85:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:80:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:79:14-35
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:78:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:77:14-81
+activity#com.baidu.android.voicedemo.activity.ActivityNlu
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:86:10-95:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:90:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:89:14-41
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:88:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:87:14-77
+activity#com.baidu.android.voicedemo.activity.ActivityAllRecog
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:96:10-105:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:100:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:99:14-36
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:98:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:97:14-82
+activity#com.baidu.android.voicedemo.activity.ActivityWakeUp
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:106:10-115:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:110:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:109:14-33
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:108:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:107:14-80
+activity#com.baidu.android.voicedemo.activity.ActivityWakeUpRecog
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:116:10-125:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:120:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:119:14-35
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:118:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:117:14-85
+activity#com.baidu.android.voicedemo.activity.mini.ActivityMiniRecog
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:126:10-135:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:130:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:129:14-35
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:128:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:127:14-88
+activity#com.baidu.android.voicedemo.activity.ActivityUiDialog
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:136:10-145:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:140:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:139:14-37
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:138:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:137:14-82
+activity#com.baidu.android.voicedemo.activity.mini.ActivityMiniWakeUp
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:146:10-155:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:150:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:149:14-36
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:148:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:147:14-89
+activity#com.baidu.android.voicedemo.activity.mini.ActivityMiniTest
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:156:10-165:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:160:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:159:14-40
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:158:14-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:157:14-87
+activity#com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:166:10-176:21
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:171:14-50
+	android:exported
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:170:14-38
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:168:14-77
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:169:14-57
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:167:14-88
+intent-filter#action:name:com.baidu.action.RECOGNIZE_SPEECH+category:name:android.intent.category.DEFAULT
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:172:14-175:30
+action#com.baidu.action.RECOGNIZE_SPEECH
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:173:18-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:173:26-74
+category#android.intent.category.DEFAULT
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:174:18-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:174:28-74
+activity#com.baidu.android.voicedemo.activity.setting.OnlineSetting
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:177:10-182:62
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:182:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:180:14-36
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:179:14-77
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:181:14-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:178:14-87
+activity#com.baidu.android.voicedemo.activity.setting.OfflineSetting
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:183:10-188:62
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:188:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:186:14-37
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:185:14-77
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:187:14-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:184:14-88
+activity#com.baidu.android.voicedemo.activity.setting.NluSetting
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:189:10-194:62
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:194:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:192:14-34
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:191:14-77
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:193:14-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:190:14-84
+activity#com.baidu.android.voicedemo.activity.setting.AllSetting
+ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:195:10-200:62
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:200:14-50
+	android:label
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:198:14-36
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:197:14-77
+	android:theme
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:199:14-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\BaiDuPhoneticRecognition\app\src\main\AndroidManifest.xml:196:14-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\77417679f81ff448fb3a6b81676c2865\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\b7a2b5a94488be3c61f564561546ab28\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\8159ce9317ee90c7b7b16ea60a269945\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0883a64ca61daa5b77afd3d352d7d442\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9d76894f28d05697306ec39fb78a3b32\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\35efb036f8da5b78e174188ccacc8041\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b39c6f78618a8aff03d8a9db8723acf7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9e1e3b29521278fd6953884030d8d2ae\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\0a48eb6852df11e3092862137ec6a3d6\AndroidManifest.xml:26:9-47

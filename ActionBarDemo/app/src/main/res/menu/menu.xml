@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/itemPayly"
+    android:icon="@android:drawable/ic_media_play"
+    android:title="paly"
+    app:showAsAction="ifRoom" />
+<item
+    android:id="@+id/itemPause"
+    android:icon="@android:drawable/ic_media_pause"
+    android:title="pause"
+    app:showAsAction="ifRoom" />
+<item
+    android:id="@+id/itemNext"
+    android:title="next"
+    android:icon="@android:drawable/ic_media_next"
+    app:showAsAction="ifRoom" >
+    <menu>
+        <item
+
+            android:icon="@android:drawable/ic_media_play"
+            android:title="paly"
+            app:showAsAction="ifRoom" />
+        <item
+            
+            android:icon="@android:drawable/ic_media_pause"
+            android:title="pause"
+            app:showAsAction="ifRoom" />
+    </menu>
+</item>
+</menu>

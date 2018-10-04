@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/redpacket" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#8096ff"
+        android:gravity="center"
+        android:onClick="start"
+        android:layout_margin="20dp"
+        android:text="开启红包插件"
+        android:textColor="#ff6b72"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

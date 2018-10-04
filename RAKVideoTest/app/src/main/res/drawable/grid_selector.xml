@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- bg_style_titled.xml
+* File: 
+* Copyright © 2013, Texas Instruments Incorporated - http://www.ti.com/
+* All rights reserved.
+
+<item android:state_window_focused="false"
+        android:drawable="@drawable/black_head_bg"/>
+        <item android:state_focused="true"
+        android:drawable="@null"/>
+        <item android:drawable="@null"/>
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">       
+        <item android:state_pressed="true">
+                <shape>
+                        <gradient android:angle="270" android:endColor="@color/grey"
+                            android:startColor="@color/trans" />
+                        <corners android:radius="30dp" />
+                </shape>
+        </item>
+</selector>

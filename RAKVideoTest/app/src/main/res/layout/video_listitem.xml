@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:id="@+id/photo_listitem"
+  >
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    >
+
+	<RelativeLayout
+		android:padding="10dp"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/photonum"
+			android:src="@mipmap/icon_play_star"
+			android:layout_centerInParent="true"
+			>
+		</ImageView>
+
+		<ImageView
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:id="@+id/photoplay"
+			android:layout_centerInParent="true"
+			android:src="@mipmap/icon_play_star"
+			>
+		</ImageView>
+	</RelativeLayout>
+
+
+	<TextView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:id="@+id/data"		
+		android:textSize="50px"	
+		android:textColor="#000000"
+		android:text=""
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		>
+	</TextView>
+	
+	<ImageView
+		android:padding="10dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/del"
+		android:src="@drawable/choose"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		>
+	</ImageView>
+		<TextView
+			android:padding="15dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/date"
+			android:textSize="40px"
+			android:textColor="@color/grey_more"
+			android:text="hfkfhksdjf"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			android:visibility="gone"
+			android:background="@color/grey_little"
+			>
+		</TextView>
+	</RelativeLayout>
+</LinearLayout>

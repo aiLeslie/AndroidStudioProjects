@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemSort"
+        android:title="sort">
+        <menu>
+            <item
+                android:id="@+id/itemSortByName"
+                android:title="name" />
+            <item
+                android:id="@+id/itemSortByTime"
+                android:title="time" />
+        </menu>
+
+    </item>
+    <item
+    android:id="@+id/itemNew"
+    android:title="new" />
+    <item
+        android:id="@+id/itemPaste"
+        android:title="paste" />
+
+</menu>

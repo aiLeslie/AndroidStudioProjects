@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/AnimationTabHost.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/Bluetooth.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/ChatListAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/ClsUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/RelayControl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/chatActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/deviceActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/deviceListAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jean/mscommcontrol/testBlueTooth.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/msgbox_rec.9.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/msgbox_send.9.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chat.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/devices.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/relaycontrol.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

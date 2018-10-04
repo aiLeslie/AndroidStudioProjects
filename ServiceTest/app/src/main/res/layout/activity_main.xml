@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonStartSevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StartSevice" />
+
+
+
+    <Button
+        android:id="@+id/buttonDestroyService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DestroyService" />
+
+    <Button
+        android:id="@+id/buttonBindSevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Sevice" />
+
+
+
+    <Button
+        android:id="@+id/buttonUnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Service" />
+    <Button
+        android:id="@+id/butonGetProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get Progress" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.jean.component.MainMenuButton
+            android:padding="15dp"
+            android:id="@+id/device_connect_failed_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/device_psk_error"
+            />
+
+        <TextView
+            android:id="@+id/device_connect_failed_text"
+            android:padding="20dp"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:textSize="@dimen/add_title_height"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/add_success_text"
+            android:text="@string/device_connect_failed_text"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

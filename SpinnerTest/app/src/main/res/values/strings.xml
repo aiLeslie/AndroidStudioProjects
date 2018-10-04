@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpinnerTest</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="fruits">
+        <item>苹果</item>
+        <item>雪梨</item>
+        <item>橙子</item>
+        <item>葡萄</item>
+        <item>菠萝</item>
+    </string-array>
+</resources>

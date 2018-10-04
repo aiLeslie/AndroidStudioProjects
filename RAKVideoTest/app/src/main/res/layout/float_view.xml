@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/float_view1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/video_layout">
+        <com.demo.sdk.DisplayView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/video_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hjz"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"/>
+</RelativeLayout>

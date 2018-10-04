@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+    <RelativeLayout
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <RelativeLayout
+        android:id="@+id/videoHead"
+        style="@style/TitleLayoutW"
+        android:background="#b0000000">
+        <com.example.jean.component.HeaderButtonView
+            android:id="@+id/headerBackButton"
+            style="@style/TitleBackButton"
+            android:src="@drawable/video_back"
+            />
+        <TextView
+            android:id="@+id/headerTextView"
+            style="@style/TitleText"
+            android:textColor="#fff"/>
+        <com.example.jean.component.HeaderButtonView
+            style="@style/TitleRefreshButton"
+            android:id="@+id/shareButton"
+            android:visibility="gone"
+            android:src="@drawable/fullplayer_icon_share"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/videoBottom"
+        android:layout_alignParentBottom="true"
+        style="@style/TitleLayoutW"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="#b0000000">
+
+        <com.example.jean.component.HeaderButtonView
+            android:id="@+id/videoPlay"
+            android:layout_marginLeft="5dp"
+            style="@style/ActivityButton"
+            android:src="@drawable/fullplayer_icon_player"/>
+
+        <com.example.jean.component.HeaderButtonView
+            android:id="@+id/videoNext"
+            android:layout_marginLeft="5dp"
+            style="@style/ActivityButton"
+            android:src="@drawable/fullplayer_icon_next"/>
+
+        <TextView
+            android:id="@+id/videoPlayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:text="00:00"/>
+
+        <SeekBar
+            android:id="@+id/videoPlayProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/videoWholeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:text="00:00"/>
+
+        <com.example.jean.component.HeaderButtonView
+            android:id="@+id/videoDownload"
+            android:layout_marginLeft="5dp"
+            style="@style/ActivityButton"
+            android:visibility="gone"
+            android:src="@drawable/fullplayer_icon_download"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/videoLoadProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleInverse"/>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.jean.component.MainMenuButton
+            android:padding="15dp"
+            android:id="@+id/video_uart_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/one_divider_height"
+        android:background="@color/grey"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/video_uart_recv_data"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/video_uart_recv_hint"
+            android:textSize="@dimen/add_title_height"
+            android:textColor="@color/add_success_text"
+            android:layout_height="0dp" />
+
+        <EditText
+            android:id="@+id/video_uart_send_data"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/video_uart_send_hint"
+            android:textSize="@dimen/add_title_height"
+            android:textColor="@color/add_success_text"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/video_uart_send_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_title_height"
+                android:textColor="@color/add_success_text"
+                android:layout_weight="1"
+                android:text=""/>
+            <TextView
+                android:id="@+id/video_uart_recv_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_title_height"
+                android:textColor="@color/add_success_text"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <Button
+                android:id="@+id/video_uart_send_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/video_uart_send_btn"
+                android:textSize="@dimen/add_title_height"
+                android:textColor="@color/white"
+                android:background="@drawable/add_selector"/>
+
+            <Button
+                android:id="@+id/video_uart_clear_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/video_uart_clear_btn"
+                android:textSize="@dimen/add_title_height"
+                android:textColor="@color/white"
+                android:background="@drawable/add_selector"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

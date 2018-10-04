@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff9e9b"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonBack"
+        android:layout_alignLeft="@id/buttonBack"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="前进" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:text="后退" />
+
+
+        <Button
+            android:id="@+id/buttonLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buttonBack"
+            android:layout_toLeftOf="@id/buttonBack"
+            android:padding="20dp"
+            android:text="向左" />
+
+        <Button
+            android:id="@+id/buttonRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buttonBack"
+            android:layout_toRightOf="@id/buttonBack"
+            android:padding="20dp"
+            android:text="向右" />
+
+    </LinearLayout>
+</LinearLayout>

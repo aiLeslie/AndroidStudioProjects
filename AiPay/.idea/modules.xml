@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AiPay.iml" filepath="$PROJECT_DIR$/AiPay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ailipaystandard/ailipaystandard.iml" filepath="$PROJECT_DIR$/ailipaystandard/ailipaystandard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taopiaopiao/taopiaopiao.iml" filepath="$PROJECT_DIR$/taopiaopiao/taopiaopiao.iml" />
+    </modules>
+  </component>
+</project>

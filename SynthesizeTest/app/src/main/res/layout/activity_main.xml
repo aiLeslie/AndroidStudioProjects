@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="综合练习"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonShowText"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView"
+                android:layout_weight="1"
+                android:text="Text" />
+
+            <Button
+                android:id="@+id/buttonShowAlertDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView"
+                android:layout_weight="1"
+                android:text="Dialog" />
+
+            <Button
+                android:id="@+id/buttonShowStartActivityForResult"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView"
+                android:layout_weight="1"
+                android:text="ForResult" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonShowTransmission"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView"
+                android:layout_weight="1"
+                android:text="put data" />
+
+            <Button
+                android:id="@+id/buttonShowReceiveBroadcast"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView"
+                android:layout_weight="1"
+                android:text="Receiver" />
+
+            <Button
+                android:id="@+id/buttonNet"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView"
+                android:layout_weight="1"
+                android:text="Net" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

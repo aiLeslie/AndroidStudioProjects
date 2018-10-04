@@ -1,0 +1,1 @@
+include ':app', ':networktest', ':calltest', ':sendLocalBroadcastTest', ':jsonparse'

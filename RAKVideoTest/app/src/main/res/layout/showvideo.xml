@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#000000"
+  >
+	<VideoView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true"
+		android:id="@+id/showvideo"
+		>
+	</VideoView>
+	<com.example.jean.component.MainMenuButton
+		android:id="@+id/video_back"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:padding="25dp"
+		android:src="@drawable/video_back"/>
+</RelativeLayout>

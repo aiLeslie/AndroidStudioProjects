@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_size_1">20sp</dimen>
+    <dimen name="one_divider_height">1dp</dimen>
+    <dimen name="two_divider_height">2dp</dimen>
+    <dimen name="add_title_height">20sp</dimen>
+    <dimen name="add_text_height">20sp</dimen>
+    <dimen name="add_note_height">16sp</dimen>
+    <dimen name="help_title_height">18sp</dimen>
+    <dimen name="help_text_height">16sp</dimen>
+
+    <dimen name="image_edit_text_size">16sp</dimen>
+    <dimen name="image_edit_text_padding">7dp</dimen>
+</resources>

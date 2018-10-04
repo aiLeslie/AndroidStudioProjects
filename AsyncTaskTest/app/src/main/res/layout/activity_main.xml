@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#bea6ff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="file list"
+            android:background="#97b3ff"
+            android:onClick="start"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.ListViewCompat
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.ListViewCompat>
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_alignParentTop="true"
+            android:id="@+id/buttonOpenPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="open download path"
+            android:scaleType="centerCrop"
+            android:background="#97b3ff"
+            android:textAllCaps="false" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout1"
+            android:layout_below="@id/buttonOpenPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100" />
+            <TextView
+                android:id="@+id/textViewProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="progress"
+                android:textColor="#7b8cff"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_below="@id/layout1"
+            android:gravity="left|top"
+            android:layout_height="120dp"
+            android:hint="Enter Download URL" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonClean"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b7ffca"
+                android:layout_marginRight="5dp"
+                android:text="clear" />
+
+            <Button
+                android:id="@+id/buttonDownload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff8082"
+                android:text="download" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

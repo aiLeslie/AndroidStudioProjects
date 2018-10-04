@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="number"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textColor="#5576fc"
+        android:textSize="50dp"
+        />
+
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff7f82"
+        android:text="请选择随机数的取值类型" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonInteger"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inteage" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDouble"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Double" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff47ce"
+        android:text="请输入生成随机数的范围" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:hint=""
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="~" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="create" />
+
+
+</RelativeLayout>

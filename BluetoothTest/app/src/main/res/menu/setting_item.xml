@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/bluetooth"
+        android:id="@+id/turnOnBluetooth"
+        android:title="打开蓝牙"/>
+    <item
+        android:icon="@drawable/server"
+        app:showAsAction="always"
+        android:id="@+id/ServerListen"
+        android:title="开启服务器"/>
+    <item
+        android:id="@+id/setVisibility"
+        android:title="设置可见"/>
+
+    <item
+        android:icon="@drawable/close"
+        app:showAsAction="ifRoom"
+        android:id="@+id/ServerStopListen"
+        android:title="关闭服务器"/>
+    <item
+        android:id="@+id/disconnect"
+        android:title="断开连接"/>
+    <item
+        android:id="@+id/clearReceived"
+        android:title="清空接收区"/>
+    <item
+        android:id="@+id/setEncodeMode"
+        android:title="设置字符编码"/>
+    <item
+        android:id="@+id/setFormat"
+        app:showAsAction="always"
+        android:icon="@drawable/io_format"
+        android:title="设定IO格式"/>
+    <item
+        android:id="@+id/openCommandTable"
+        android:icon="@drawable/io_format"
+        android:title="命令列表"/>
+
+    <!--<item-->
+        <!--android:id="@+id/rockerMode"-->
+        <!--android:title="摇杆模式"/>-->
+    <!--<item-->
+        <!--android:id="@+id/controlMode"-->
+        <!--android:title="遥控模式"/>-->
+</menu>

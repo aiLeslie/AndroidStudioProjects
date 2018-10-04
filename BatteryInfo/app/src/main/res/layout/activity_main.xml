@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/textViewSatus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="satus"
+            android:textColor="#a44eff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:textSize="20dp"
+        android:textColor="#508dff"
+        android:text="" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:text="获取电池的信息" />
+
+
+</LinearLayout>
+
+

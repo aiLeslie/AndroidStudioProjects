@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="继电器控制界面"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <RadioGroup 
+        android:layout_marginTop="10.0px"
+        android:layout_marginLeft="15.0px"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        android:id="@+id/radio_type" 
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="请选择通信对象："
+            android:textSize="15dip" />
+        <RadioButton
+            android:id="@+id/rb_pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="电脑" />
+        <RadioButton
+            android:id="@+id/rb_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机" />    
+</RadioGroup>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继电器1: "
+            android:textSize="15dip" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="打开"
+            android:textOn="关闭" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="20dip"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继电器2: "
+            android:textSize="15dip" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="打开"
+            android:textOn="关闭" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继电器3: "
+            android:textSize="15dip" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="打开"
+            android:textOn="关闭" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="20dip"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继电器4: "
+            android:textSize="15dip" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="打开"
+            android:textOn="关闭" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="关闭" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="返回" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textMultiLine" 
+            android:hint="接收区">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/etSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" 
+            android:hint="发送区"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btSend"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:layout_gravity="right" />
+    
+</LinearLayout>

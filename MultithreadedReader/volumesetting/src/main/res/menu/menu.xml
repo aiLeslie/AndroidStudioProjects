@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--<item-->
+    <!--android:id="@+id/item_volume"-->
+    <!--android:title="volume">-->
+    <!--<menu>-->
+        <!--<item-->
+            <!--android:id="@+id/item_increaseVolume"-->
+            <!--android:title="increase volume" />-->
+        <!--<item-->
+            <!--android:id="@+id/item_reduceVolume"-->
+            <!--android:title="reduce volume" />-->
+    <!--</menu>-->
+<!--</item>-->
+    <item
+        android:id="@+id/item_VolumeSetting"
+        android:title="Volume Setting">
+
+    </item>
+    <item
+        android:id="@+id/item_BatteryInfo"
+        android:title="Battery Info">
+
+    </item>
+</menu>
+
+
+

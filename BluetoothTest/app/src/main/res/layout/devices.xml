@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/crystal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/closeListWindow"
+        android:onClick="dismiss"
+        android:textColor="#262626"
+        android:textSize="20dp"
+        android:text="请选择要连接的蓝牙设备"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:background="#ff5c7f"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
