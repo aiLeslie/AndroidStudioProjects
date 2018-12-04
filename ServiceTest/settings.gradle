@@ -1,1 +1,1 @@
-include ':app', ':intentservicetest'
+include ':app', ':intentservicetest', ':aidl_client', ':aidl_server', ':service_annotation', ':service_api'

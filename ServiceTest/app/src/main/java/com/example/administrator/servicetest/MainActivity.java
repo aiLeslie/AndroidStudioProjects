@@ -11,25 +11,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private MyService.MyBinder binder;
-    private ServiceConnection connection = new ServiceConnection() {
-        @Override
-        public void onServiceConnected(ComponentName name, IBinder service) {
-            binder = (MyService.MyBinder) service;
-            binder.startDownload();
-            Toast.makeText(MainActivity.this, binder.getProgress() + "", Toast.LENGTH_SHORT).show();
-        }
+import com.leslie.service_annotation.Binder;
+import com.leslie.service_annotation.Connection;
+import com.leslie.service_api.ServiceBinder;
 
-        @Override
-        public void onServiceDisconnected(ComponentName name) {
-        }
-    };
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    @Binder(serviceClass = MyService.class)
+    private MyService.MyBinder binder;
+    @Connection(serviceClass = MyService.class)
+    private ServiceConnection connection;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ServiceBinder.bind(this);
 
         Button button = (Button) findViewById(R.id.buttonStartSevice);
         button.setOnClickListener(this);
@@ -66,8 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (connection == null){
                     Toast.makeText(this, "活动没有与任务绑定,不需要解绑!", Toast.LENGTH_SHORT).show();
                     return;
+                } else {
+                    unbindService(connection);
                 }
-                unbindService(connection);
+
                 break;
             case R.id.butonGetProgress:
                 if (binder != null){
@@ -81,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onDestroy() {
         stopService(new Intent(this,MyService.class));
-        unbindService(connection);
+        if (connection != null)unbindService(connection);
         super.onDestroy();
     }
 }

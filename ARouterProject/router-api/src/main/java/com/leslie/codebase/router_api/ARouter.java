@@ -22,45 +22,54 @@ public class ARouter {
     private static HashMap<String, Class<? extends Activity>> hashMap = new HashMap<>();
 
 
-    public static void init(Application app) {
+    public static void init(final Application app) {
         mContext = app;
 
-        try {
-            // 获得当前的apk文件
-            ApplicationInfo appInfo = app.getPackageManager().getApplicationInfo(app.getPackageName(), 0);
-            // instant run
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                String[] apkPaths = appInfo.splitSourceDirs;
-                for (String apkPath : apkPaths) {
-                    DexFile dexFile = new DexFile(apkPath);
-                    Enumeration<String> entries = dexFile.entries();
-                    String className = null;
-                    while (entries.hasMoreElements()) {
-                        // 获得全限定名
-                        className = entries.nextElement();
+        new Thread() {
+            @Override
+            public void run() {
+                super.run();
 
-                        if (className.endsWith("Main$$Router")) {
-                            Connectable connectable = (Connectable) (Class.forName(className).newInstance());
-                            connectable.load(hashMap);
-                            Log.i(TAG, "put router: " + className);
+                try {
+                    // 获得当前的apk文件
+                    ApplicationInfo appInfo = app.getPackageManager().getApplicationInfo(app.getPackageName(), 0);
+                    // instant run
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        String[] apkPaths = appInfo.splitSourceDirs;
+                        for (String apkPath : apkPaths) {
+                            DexFile dexFile = new DexFile(apkPath);
+                            Enumeration<String> entries = dexFile.entries();
+                            String className = null;
+                            while (entries.hasMoreElements()) {
+                                // 获得全限定名
+                                className = entries.nextElement();
+
+                                if (className.endsWith(AROUTER_SUFFIX)) {
+                                    Connectable connectable = (Connectable) (Class.forName(className).newInstance());
+                                    connectable.load(hashMap);
+                                    Log.i(TAG, "put router: " + className);
+                                }
+
+                            }
                         }
-
                     }
+
+
+                } catch (PackageManager.NameNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
                 }
             }
+        }.start();
 
 
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 
     public static boolean register(String address, Class<? extends Activity> classType) {

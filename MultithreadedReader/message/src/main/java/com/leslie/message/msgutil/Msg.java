@@ -30,7 +30,7 @@ public class Msg {
 
         private String content;
         private String phoneNum;
-        Msg msg = new Msg();
+
 
         public Builder content(String content) {
             this.content = content;
@@ -50,6 +50,7 @@ public class Msg {
         }
 
         public Msg build() {
+            Msg msg = new Msg();
             msg.content = this.content;
             msg.phoneNum = this.phoneNum;
             return msg;

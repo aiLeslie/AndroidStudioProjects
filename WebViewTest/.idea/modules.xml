@@ -3,11 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WebViewTest.iml" filepath="$PROJECT_DIR$/WebViewTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/calltest/calltest.iml" filepath="$PROJECT_DIR$/calltest/calltest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsonparse/jsonparse.iml" filepath="$PROJECT_DIR$/jsonparse/jsonparse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/networktest/networktest.iml" filepath="$PROJECT_DIR$/networktest/networktest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sendLocalBroadcastTest/sendLocalBroadcastTest.iml" filepath="$PROJECT_DIR$/sendLocalBroadcastTest/sendLocalBroadcastTest.iml" />
     </modules>
   </component>
 </project>

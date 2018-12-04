@@ -16,7 +16,7 @@ public class SpeedUpInterpolator implements Interpolator {
 
     public SpeedUpInterpolator() {
         mFactor = 1.0f;
-        mDoubleFactor = 2.0;
+        mDoubleFactor = 2.0f;
     }
 
     @Override

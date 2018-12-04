@@ -13,7 +13,7 @@ import com.leslie.codebase.router_api.ARouter;
 import com.leslie.codebase.router_api.Connectable;
 
 
-@Router("main")
+@Router("/app/main1")
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
@@ -21,20 +21,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Connectable main$$Router = new Main$$Router();
-        Log.d(TAG, "onCreate: " + main$$Router.toString());
-        ARouter.register("main", MainActivity.class);
+        String qualifierName = getClass().getName();
+        setTitle(qualifierName.substring(qualifierName.lastIndexOf(".") + 1));
 
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
 
-    }
 
 
     public void btn_start(View view) {
-        ARouter.start("main");
+        ARouter.start("/app/main2");
     }
 }

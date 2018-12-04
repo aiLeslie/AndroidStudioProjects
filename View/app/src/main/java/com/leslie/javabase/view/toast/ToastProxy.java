@@ -3,9 +3,10 @@ package com.leslie.javabase.view.toast;
 import android.content.Context;
 import android.widget.Toast;
 
+import com.leslie.javabase.view.R;
+
 
 public class ToastProxy {
-    private Context context;
     private Toast mToast;
 
     public ToastProxy(Context context) {
@@ -13,8 +14,7 @@ public class ToastProxy {
     }
 
     public void setContext(Context context) {
-        this.context = context;
-        mToast = Toast.makeText(context, "", Toast.LENGTH_SHORT);
+        mToast = Toast.makeText(context,new String(),Toast.LENGTH_SHORT);
 
     }
 

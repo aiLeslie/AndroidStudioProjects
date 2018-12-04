@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnimateTest.iml" filepath="$PROJECT_DIR$/AnimateTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/propertyanimate/propertyanimate.iml" filepath="$PROJECT_DIR$/propertyanimate/propertyanimate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/valueanimationtest/valueanimationtest.iml" filepath="$PROJECT_DIR$/valueanimationtest/valueanimationtest.iml" />
     </modules>
   </component>
 </project>

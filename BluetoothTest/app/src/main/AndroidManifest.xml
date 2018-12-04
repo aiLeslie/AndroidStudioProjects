@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.administrator.flagapitest">
+    package="com.example.administrator.bluetoothtest">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -12,22 +12,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".ApplicationUtil"
+        android:name="com.example.administrator.bluetoothtest.ApplicationUtil"
         android:allowBackup="true"
         android:icon="@drawable/icon"
-        android:label="蓝牙调试助手"
+        android:label="@string/app_name"
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <!-- 避免打开应用弹出输入法 -->
         <activity
-            android:name=".MainActivity"
-            android:windowSoftInputMode="adjustPan">
-
-        </activity>
-        <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.main.view.MainActivity"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,13 +30,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activities.ControlActivity" />
-        <activity android:name=".mirror.activities.TransmissionActivity" />
-        <activity android:name=".activities.RockerActivity" />
-
-
-
+        <activity android:name="com.example.administrator.bluetoothtest.activities.checkup.view.CoordinateActivity"></activity>
+        <activity android:name="com.example.administrator.bluetoothtest.activities.environment.view.EnvirActivity"></activity>
     </application>
 
 </manifest>

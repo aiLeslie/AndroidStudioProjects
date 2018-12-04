@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ServiceTest.iml" filepath="$PROJECT_DIR$/ServiceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidl_client/aidl_client.iml" filepath="$PROJECT_DIR$/aidl_client/aidl_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidl_server/aidl_server.iml" filepath="$PROJECT_DIR$/aidl_server/aidl_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentservicetest/intentservicetest.iml" filepath="$PROJECT_DIR$/intentservicetest/intentservicetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_annotation/service_annotation.iml" filepath="$PROJECT_DIR$/service_annotation/service_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_api/service_api.iml" filepath="$PROJECT_DIR$/service_api/service_api.iml" />
     </modules>
   </component>
 </project>

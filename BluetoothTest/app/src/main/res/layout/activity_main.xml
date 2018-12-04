@@ -1,93 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="5dp"
         android:layout_weight="1"
-        android:layout_margin="5dp">
+        android:orientation="horizontal">
 
-    <Button
-        android:textSize="15dp"
-        android:id="@+id/buttonDiscovery"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:text="发现设备" />
+        <Button
+            android:id="@+id/buttonDiscovery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="发现设备"
+            android:textSize="15dp" />
 
 
-    <TextView
-        android:id="@+id/ShowDevice"
-        android:layout_width="0dp"
-        android:layout_weight="1.5"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:text="未连接" />
+        <TextView
+            android:id="@+id/ShowDevice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="未连接" />
 
-    <Button
-        android:id="@+id/buttonWatchBondDevices"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="已配对设备" />
+        <Button
+            android:id="@+id/buttonWatchBondDevices"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="已配对设备" />
     </LinearLayout>
 
     <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="2dp"-->
-        <!--android:layout_alignLeft="@id/linearLayout"-->
-        <!--android:layout_alignRight="@id/linearLayout"-->
-        <!--android:layout_alignTop="@id/linearLayout"-->
-        <!--android:background="#738fff" />-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_alignLeft="@id/linearLayout"-->
+    <!--android:layout_alignRight="@id/linearLayout"-->
+    <!--android:layout_alignTop="@id/linearLayout"-->
+    <!--android:background="#738fff" />-->
 
 
     <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="2dp"-->
-        <!--android:layout_alignLeft="@id/linearLayout"-->
-        <!--android:layout_alignRight="@id/linearLayout"-->
-        <!--android:layout_alignTop="@id/linearLayout"-->
-        <!--android:background="#738fff" />-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_alignLeft="@id/linearLayout"-->
+    <!--android:layout_alignRight="@id/linearLayout"-->
+    <!--android:layout_alignTop="@id/linearLayout"-->
+    <!--android:background="#738fff" />-->
 
     <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="2dp"-->
-        <!--android:layout_alignBottom="@id/linearLayout"-->
-        <!--android:layout_alignLeft="@id/linearLayout"-->
-        <!--android:layout_alignRight="@id/linearLayout"-->
-        <!--android:background="#738fff" />-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_alignBottom="@id/linearLayout"-->
+    <!--android:layout_alignLeft="@id/linearLayout"-->
+    <!--android:layout_alignRight="@id/linearLayout"-->
+    <!--android:background="#738fff" />-->
 
     <!--<TextView-->
-        <!--android:layout_width="2dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignBottom="@id/linearLayout"-->
-        <!--android:layout_alignLeft="@id/linearLayout"-->
-        <!--android:layout_alignTop="@id/linearLayout"-->
-        <!--android:background="#738fff" />-->
+    <!--android:layout_width="2dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignBottom="@id/linearLayout"-->
+    <!--android:layout_alignLeft="@id/linearLayout"-->
+    <!--android:layout_alignTop="@id/linearLayout"-->
+    <!--android:background="#738fff" />-->
 
     <!--<TextView-->
-        <!--android:layout_width="2dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignBottom="@id/linearLayout"-->
-        <!--android:layout_alignRight="@id/linearLayout"-->
-        <!--android:layout_alignTop="@id/linearLayout"-->
-        <!--android:background="#738fff" />-->
+    <!--android:layout_width="2dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignBottom="@id/linearLayout"-->
+    <!--android:layout_alignRight="@id/linearLayout"-->
+    <!--android:layout_alignTop="@id/linearLayout"-->
+    <!--android:background="#738fff" />-->
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="10"
         android:layout_alignParentBottom="true"
+        android:layout_weight="10"
         android:orientation="vertical">
 
         <TextView
@@ -100,9 +101,9 @@
 
         <EditText
             android:id="@+id/editText"
-            android:background="#b8c5ff"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:background="#b8c5ff"
             android:gravity="center"
             android:hint="Access the information you want to send"
             android:textSize="20dp" />
@@ -131,32 +132,33 @@
 
 
         <!--<TextView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="2dp"-->
-            <!--android:layout_marginTop="10dp"-->
-            <!--android:background="#738fff" />-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="#738fff" />-->
 
 
         <TextView
             android:id="@+id/receivingArea"
-            android:onClick="clearMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#bdffba"
             android:gravity="center"
+            android:onClick="clearMessage"
             android:text="接收区"
             android:textSize="20dp" />
 
         <ScrollView
-            android:background="#b8c5ff"
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="200dp"
+            android:background="#b8c5ff">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:onClick="copyReceiveData"
                 android:text=""
                 android:textSize="20dp" />
         </ScrollView>

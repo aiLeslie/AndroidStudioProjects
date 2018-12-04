@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#b6adff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#97c6ff"
+            android:gravity="center"
+            android:text="环境温度监测" />
+
+        <TextView
+            android:id="@+id/showTemp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90ff9d"
+            android:gravity="center"
+            android:text="当前值" />
+    </LinearLayout>
+
+    <com.example.administrator.bluetoothtest.activities.checkup.view.CoordinateView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffbb90"
+        android:gravity="center"
+        android:text="体温评测" />
+
+        <TextView
+            android:id="@+id/showBodyT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90ff9d"
+            android:gravity="center"
+            android:text="当前值" />
+    </LinearLayout>
+
+    <com.example.administrator.bluetoothtest.activities.checkup.view.CoordinateView
+        android:id="@+id/bodyTemp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ff6d70"
+        android:gravity="center"
+        android:text="血氧评测" />
+        <TextView
+            android:id="@+id/showBO"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90ff9d"
+            android:gravity="center"
+            android:text="当前值" />
+    </LinearLayout>
+
+    <com.example.administrator.bluetoothtest.activities.checkup.view.CoordinateView
+        android:id="@+id/bo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#60a7ff"
+        android:gravity="center"
+        android:text="心率评测" />
+        <TextView
+            android:id="@+id/showHeart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90ff9d"
+            android:gravity="center"
+            android:text="当前值" />
+    </LinearLayout>
+
+    <com.example.administrator.bluetoothtest.activities.checkup.view.CoordinateView
+        android:id="@+id/heart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+
+</LinearLayout>

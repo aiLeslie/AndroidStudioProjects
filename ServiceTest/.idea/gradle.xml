@@ -8,8 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidl_client" />
+            <option value="$PROJECT_DIR$/aidl_server" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/intentservicetest" />
+            <option value="$PROJECT_DIR$/service_annotation" />
+            <option value="$PROJECT_DIR$/service_api" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -10,19 +10,24 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 
 public class DrawableAnimationActivity extends AppCompatActivity {
-
+    // 图像控件
     private ImageView mPuppet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawable_animation);
+        // 初始化工具栏
         initToolbar();
+        // 绑定图像控件
         mPuppet = findViewById(R.id.img_puppet);
     }
 
+    /**
+     * 初始化工具栏
+     */
     private void initToolbar() {
-        Toolbar toolbar = ((Toolbar) findViewById(R.id.toolbar));
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -56,6 +61,7 @@ public class DrawableAnimationActivity extends AppCompatActivity {
             animationDrawable.start();
         }
     }
+
 
     private AnimationDrawable getAnimationDrawable(boolean fromXml) {
         if (fromXml) {

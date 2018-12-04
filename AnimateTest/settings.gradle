@@ -1,1 +1,1 @@
-include ':app', ':propertyanimate'
+include ':app', ':propertyanimation', ':valueanimationtest'

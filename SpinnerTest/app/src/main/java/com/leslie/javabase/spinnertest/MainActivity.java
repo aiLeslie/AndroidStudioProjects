@@ -24,15 +24,12 @@ public class MainActivity extends AppCompatActivity {
         frutis = getResources().getStringArray(R.array.fruits);
         fruitsSpinner.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, frutis));
         fruitsSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            // parent： 为控件Spinner view：显示文字的TextView position：下拉选项的位置从0开始
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //获取Spinner控件的适配器
                 ArrayAdapter<String> adapter = (ArrayAdapter<String>) parent.getAdapter();
                 Toast.makeText(MainActivity.this, adapter.getItem(position), Toast.LENGTH_SHORT).show();
 
             }
 
-            //没有选中时的处理
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });

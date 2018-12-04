@@ -40,9 +40,9 @@
         android:title="命令列表"/>
 
     <!--<item-->
-        <!--android:id="@+id/rockerMode"-->
-        <!--android:title="摇杆模式"/>-->
-    <!--<item-->
-        <!--android:id="@+id/controlMode"-->
-        <!--android:title="遥控模式"/>-->
+        <!--android:id="@+id/envirActivity"-->
+        <!--android:title="环境监测"/>-->
+    <item
+        android:id="@+id/checkUpMode"
+        android:title="小美护士"/>
 </menu>

@@ -21,14 +21,13 @@ public class MainActivity extends AppCompatActivity implements RockerView.OnEven
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        init();
 
+    }
+
+    private void init() {
         bindViews();
-
         toast = new ToastProxy(this);
-
-        if (savedInstanceState != null) {
-            toast.setText(savedInstanceState.getString("str"));
-        }
     }
 
     private void bindViews() {
@@ -37,16 +36,10 @@ public class MainActivity extends AppCompatActivity implements RockerView.OnEven
     }
 
 
-    //    RockerView.Quadrant quadrant = RockerView.Quadrant.Midpoint;
     int o;
-
     @Override
     public void onEvent(final RockerView.Quadrant quadrant, final double radian, double progress) {
 
-//        if (quadrant == this.quadrant) {
-//            return;
-//        }
-//        this.quadrant = quadrant;
         runOnUiThread(
                 new Runnable() {
                     @Override
@@ -87,9 +80,5 @@ public class MainActivity extends AppCompatActivity implements RockerView.OnEven
     }
 
 
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putString("str", "Hello");
-    }
+
 }

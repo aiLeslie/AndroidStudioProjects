@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leslie.activity_mode">
+
+
+    <!--standard-->
+    <!--0-->
+    <!--默认模式，会在启动时创建一个新实例，创建的模式也可以随Intent.FLAG_ACTIVITY_NEW_TASK而改变-->
+    <!--singleTop-->
+    <!--1-->
+    <!--当启动activity时，有相同的activity在前台与用户交互，那就复用这个activity，这个实例会被调用Activity.onNewIntent()。-->
+    <!--singleTask-->
+    <!--2-->
+    <!--在启动activity时，若有一个运行着这个activity的task，那这个activity实例会被调到前台，并调用Activity.onNewIntent() ，启动实例的Intent的flag会被设置Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT . singleTask是singleTop的一个扩展集。This is a superset of the singleTop mode, where if there is already an instance of the activity being started at the top of the stack, it will receive the Intent as described there (without the FLAG_ACTIVITY_BROUGHT_TO_FRONT flag set). See the Tasks and Back Stack document for more details about tasks.-->
+    <!--singleInstance-->
+    <!--3-->
+    <!--开辟一个只允许一个activity实例在里头运行的task. 如果用同样的intent再次启动这个activity，task会被调到前台，其Activity.onNewIntent() 会被调用. 如果这个activity实例要启动一个新activity，那么这个新activity会在一个新task中运行.-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="standard"><!--默认模式-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
